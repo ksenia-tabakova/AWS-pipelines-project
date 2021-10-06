@@ -11,21 +11,19 @@ def lambda_handler(event, context):
         method = event['context']['http-method']
 
         
-    if method == "GET":
-        dynamo_client = boto3.client('dynamodb')
+    if method == "GET":  #This will query DynamoDB Invoices table by InvoiceNo
+        dynamo_client = boto3.client('dynamodb')  #client for DynamoDB
         im_InvoiceNo = event['params']['querystring']['InvoiceNo']
         print(im_InvoiceNo)
         response = dynamo_client.get_item(TableName = 'Invoices', Key = {'InvoiceNo':{'N': im_InvoiceNo}})
         print(response['Item'])
-
-        #myreturn = "This is the return of the get"
 
         return {
             'statusCode': 200,
             'body': json.dumps(response['Item'])
            }
 
-    elif method == "POST":
+    elif method == "POST":  #This will wrtie data to Kinesis stream
 
         incoming_record = event['body']
         recordstring = json.dumps(p_record)
