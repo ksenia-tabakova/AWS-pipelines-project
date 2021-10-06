@@ -8,4 +8,4 @@ Simple API Gateway that has two methods (POST AND GET) with Lambda integration w
 2. GET: gets item from DynamoDB
 
 Kinesis stream was created in the console.
-Lambda code is [here](https://github.com/ksenia-tabakova/AWS-pipelines-project/blob/main/data-ingestion-pipeline/lambda_function.py)
+Lambda function is [here](https://github.com/ksenia-tabakova/AWS-pipelines-project/blob/main/data-ingestion-pipeline/lambda_function.py)
