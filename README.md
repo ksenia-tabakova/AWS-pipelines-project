@@ -1,4 +1,5 @@
 # AWS-pipelines-project
+### Project in brief
 
 This is a semi-guided project from [Learn Data Engineering online academy](https://learndataengineering.com/) to build pipelines using AWS services.
 
@@ -7,6 +8,7 @@ The project has three main goals:
 2. Give customers access to their purchase data
 3. Provide data on transaction for BI
 
+### Pipelines
 Following pipelines were built:
 
 Pipelines:
