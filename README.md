@@ -11,12 +11,12 @@ The project has three main goals:
 ### Pipelines
 Following pipelines were built:
 
-Pipelines:
 1. [Ingestion pipeline: local machine to API Gateway](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/data-ingestion-pipeline)
 2. [Kinesis Data Stream to S3 raw storage](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/Kinesis-to-S3%20pipeline)
 3. [Kinesis Data Stream to DynamoDB](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/Kinesis-to-DynamoDB%20pipeline)
-4. [Kinesis to Redshift](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/Kinesis-to-Redshift%20pipeline)
-5. [Batch processing pipeline](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/batch%20processing%20pipeline)
+4. [DynamoDB to client](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/DynamoDB-to-customer%20pipeline)
+5. [Kinesis to Redshift](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/Kinesis-to-Redshift%20pipeline)
+6. [Batch processing pipeline](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/batch%20processing%20pipeline)
 
 AWS Diagram:
 ![diagram](./diagrams/aws-general-diagram.png)
