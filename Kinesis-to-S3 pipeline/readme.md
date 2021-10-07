@@ -1,4 +1,4 @@
-# Pipeline description
+### Pipeline description
 
 1. S3 bucket configured in the console
 2. Lambda funciton is triggered by Kinesis Stream event
