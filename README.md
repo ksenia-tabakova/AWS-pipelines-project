@@ -8,3 +8,6 @@ Pipelines:
 3. [Kinesis Data Stream to DynamoDB](https://github.com/ksenia-tabakova/AWS-pipelines-project/tree/main/Kinesis-to-DynamoDB%20pipeline)
 4. [Kinesis to Redshift]()
 5. [Batch processing pipeline]()
+
+AWS Diagram:
+![diagram](./diagrams/aws-general-diagram.png)
