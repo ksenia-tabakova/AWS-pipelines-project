@@ -1,4 +1,9 @@
-# Kinesis to S3 bucket pipeline
+# Pipeline description
 
-Once data is written to the Kinesis data stream, it is parsed to the S3 using [lambda function](https://github.com/ksenia-tabakova/AWS-pipelines-project/blob/main/Kinesis-to-S3%20pipeline/lambda_function.py).
-S3 bucket was created in the console.
+1. S3 bucket configured in the console
+2. Lambda funciton is triggered by Kinesis Stream event
+3. Data parsed to the S3 bucket
+ 
+[Lambda function](https://github.com/ksenia-tabakova/AWS-pipelines-project/blob/main/Kinesis-to-S3%20pipeline/lambda_function.py).
+
+![pipeline diagram](../diagrams/kinesis-to-s3.png)
