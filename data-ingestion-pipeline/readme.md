@@ -9,4 +9,5 @@ POST method writes data to Kinesis Stream that was configured in the console.
 Lambda function is [here](https://github.com/ksenia-tabakova/AWS-pipelines-project/blob/main/data-ingestion-pipeline/lambda_function.py)
 
 AWS Diagram:
+
 ![diagram](../diagrams/data-ingestion-pipeline.png)
