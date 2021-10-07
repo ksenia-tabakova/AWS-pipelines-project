@@ -1,6 +1,6 @@
 ## Batch processing pipeline
 
-The purpose of this pipeline is to do bulk import into the the Redshift database
+The purpose of this pipeline is to do bulk import into the the Redshift database.
 AWS Glue service is used to enable this pipeline.
 
 Setting it up:
